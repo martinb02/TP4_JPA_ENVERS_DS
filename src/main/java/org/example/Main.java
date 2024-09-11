@@ -15,7 +15,7 @@ public class Main {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("example-unit");
         EntityManager em = emf.createEntityManager();
         System.out.println("En marcha con Hibernate Envers");
-
+        //.
         try {
             // Iniciar una nueva transacción
             em.getTransaction().begin();
